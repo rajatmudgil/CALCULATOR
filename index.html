@@ -1,0 +1,68 @@
+<!-- 
+  (ALL RIGHTS RESERVED) 
+
+CREATED AND DESIGNED BY -:
+
+     RAJAT (+91 9899446742)
+     rajatmudgil24@gmail.com -->
+
+
+<!DOCTYPE html>
+<html ng-app>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.js"></script>
+<link rel="stylesheet" href="./assets/stylesheets/style.css" />
+<script src="./assets/scripts/script.js"></script>
+</head>
+<body>
+    <h1>AngularJS calculator</h1>
+    <div ng-controller="CalculatorCtrl">
+      <table>
+        <tr>
+          <td>First Number -: </td>
+          <td><input ng-model="a"></td>
+          <td>
+            <button class="command" ng-click="inca()">+1</button>
+            <button class="command" ng-click="deca()">-1</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Second Number -: </td>
+          <td><input ng-model="b"></td>
+          <td>
+            <button class="command" ng-click="incb()">+1</button>
+            <button class="command" ng-click="decb()">-1</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Operation:</td>
+          <td>
+            <select ng-model="operation">
+              <option value="+">+</option>
+              <option value="-">-</option>
+              <option value="*">*</option>
+              <option value="/">/</option>
+            </select>
+          </td>
+        </tr>
+      </table>
+      <h3>Result -: </h3>
+      <b class="result">{{na()}} {{operation}} {{nb()}} = {{calculate()}}</b>
+    </div>
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+        <p>&copy; Made With Love By  <a href="https://www.linkedin.com/in/rajat-mudgil-738a9b15b" target="_blank"> <span id="name">RAJAT MUDGIL</span></a></p>
+        </div>
+        </div>
+        </div>
+    </div>
+
+  </body>
+
+</html>
