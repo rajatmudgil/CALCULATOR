@@ -1,0 +1,57 @@
+body {
+    background : url("../images/Download-HD-Best-Background-Photos.jpg");
+    background-size : 100% 100%;
+    margin : 0px;
+    font-family :'Lato',sans-serif;
+    background-attachment: fixed;
+}
+
+.result {
+    color: springgreen;
+    font-size: 36px;
+    margin-left: 42%;
+  }
+  
+  .command {
+      cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  td{
+      color: wheat;
+  }
+  h1{
+      margin-left: 37%;
+      color: wheat;
+      margin-top: 5%;
+  }
+  h3{
+    margin-left: 35%;
+    margin-top: 5%; 
+    font-size: 28px;
+    color: wheat;
+  }
+  table{
+      margin-left: 32%;
+      margin-top: 10%;
+      color: white;
+      font-size: 28px;  
+  }
+  #footer{
+    background-color: white;
+    color:black;
+    min-height: 35px;
+    margin-top: 10%;
+}
+#footer p{
+    margin-top: 1.5%;
+    padding-top: 0.5%;
+    margin-left: 34%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#name{
+    color: #28A745;
+    padding-left: 0.5%; 
+}
